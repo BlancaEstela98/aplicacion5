@@ -1,0 +1,353 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>segunda Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="acciones" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/cuidadoo.jpg','imagenes/cuid.jpg','imagenes/camb.jpg','imagenes/tres.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-add-back-btn="Regresar" data-back-btn-theme="b">
+    <h1>MEDIO AMBIENTE </h1>
+</div>
+<div data-role="main" class="ui-content">
+
+<!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:500px;height:200px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+  </div>
+   <div>
+   <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Dia en que se conmemora la tierra </h2>
+   <p>muestra dia de la tierra</p>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Por que se celebra</h2>
+   <p>muestra su motivo de celebracion</p>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Cuidados al planeta </h2>
+   <p>muestra los cuidados</p>
+   </a>
+   </li>
+     <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Cuidados al medio ambiente </h2>
+   <p>aqui se muestra los cuidados del ambiente</p>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Cambios climaticos</h2>
+   <p> Muestra los cambios climaticos</p>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Significado de las 3Rs</h2>
+   <p>informacion de las tres Rs</p>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Reflexion</h2>
+   <p>mi reflexion</p>
+   </a>
+   </li>
+   
+  </div>
+<div data-role="footer" align="center" data-theme="b">
+   <div>
+    <h4>Aplicacion Cinco</h4>
+   <img src="imagenes/planeta.jpg" width="46" height="46">
+   </div>
+    <div>
+    <h4>Blanca Estela Perea Escamilla </h4>
+    </div>
+</div>
+  
+    </div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="c">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>¿CUAL ES EL DIA DE LA TIERRA?</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+<img src="imagenes/dia.png" width="50%" height="50%">    
+<p> El Día de la Tierra es un día celebrado en muchos países el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos.</p>
+
+ <img src="imagenes/diia.jpg" width="50%" height="50%">
+ 
+<p>Uno de los primeros con traje y corbata que trabajó para concienciar a la población de la importancia de respetar el medio ambiente e informar sobre los problemas de sostenibilidad a los que se enfrentaba el ser humano, entre los que destacaba la superpoblación o la contaminación, un ser humano responsable directo de los grandes males a los que se enfrenta el planeta azul.</p>
+
+ <img src="imagenes/tierra.jpg" width="50%" height="50%">
+ 
+<p>Nelson, en plena resaca del movimiento hippie, promovió en 1970 una manifestación en la que se demandó la creación de una agencia medioambiental que velara por la conservación del planeta. </p> 
+
+  <img src="imagenes/plan.jpg" width="50%" height="50%">
+  
+ <p>Reconociendo que la Madre Tierra refleja la interdependencia que existe entre los seres humanos, las demás especies vivas y el planeta que todos habitamos, la Asamblea General declaró el 22 de abril como Día Internacional de la Madre Tierra para reconocer la responsabilidad que nos corresponde de promover la armonía con la naturaleza y la Tierra a fin de alcanzar un justo equilibrio entre las necesidades económicas, sociales y ambientales de las generaciones presentes y futuras.</p>
+ 
+ <img src="imagenes/tie.jpg" width="50%" height="50%">
+       </div>
+       </div>
+       <div data-role="footer" align="center" data-theme="b">
+   <div>
+    <h4>Aplicacion Cinco</h4>
+   <img src="imagenes/planeta.jpg" width="46" height="46">
+   </div>
+    <div>
+    <h4>Blanca Estela Perea Escamilla </h4>
+    </div>
+</div>
+  
+    </div>
+       
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="c">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>¿POR QUE SE CELEBRA?</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+<img src="imagenes/por.jpg" width="50%" height="50%">  
+ <p>Desde 1970 cada 22 de abril se celebra el día internacional de la tierra; creado con el fin de generar participación y conciencia ambiental entre las personas, así como para apoyar los programas e iniciativas ambientales que se gestan año a año desde entonces.</p>
+ 
+ <img src="imagenes/porr.jpg" width="50%" height="50%">
+ 
+<p>A partir de nuestras acciones individuales como reciclar, ahorrar energía, disminuir el consumo de papel, ser compradores responsables, participar activamente en campañas ambientales, entre otras, podremos convertir nuestros sentimientos verdes o la moda verde en algo tangible, duplicable y permanente en el tiempo.
+</p>
+
+ <img src="imagenes/porrr.jpg" width="50%" height="50%">
+ 
+<p>Es la conexión con las demás personas y las iniciativas ambientales comunes las que nos permitirán continuar comprometidos con el desarrollo y fortalecimiento de las acciones encaminadas a proteger la canica azul en la cual vivimos.</p>
+<img src="imagenes/que.jpg" width="50%" height="50%">
+       </div>
+       </div>
+       <div data-role="footer" align="center" data-theme="b">
+   <div>
+    <h4>Aplicacion Cinco</h4>
+   <img src="imagenes/planeta.jpg" width="46" height="46">
+   </div>
+    <div>
+    <h4>Blanca Estela Perea Escamilla </h4>
+    </div>
+</div>
+  
+    </div>
+       
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="c">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>¿CUIDADOS DEL PLANETA?</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <div data-role="collapsible" data-content-theme="false"> 
+       <h2> Objetivo</h2>
+         <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','imagenes/cuidadoo.jpg',1)"><img src="imagenes/cuidado.jpg" width="251" height="201" id="Image31"></a></p>
+ <p>Lo que debemos conocer  y aprender que hacer para cuidar nuestro planeta y como actuar para no destruirla.</p>
+ 
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/cuid.jpg',1)"><img src="imagenes/cui.jpg" width="251" height="201" id="Image28"></a>
+<p> Es necesario que colaboremos en cuidar el planeta ya que si seguimos tirando basura nuestro futuro estara destruido.</p>
+<a href="http://www.greenpeace.org/mexico/es/Actua/Ecotips/40-tips-para-cuidar-el-planeta/">ver mas informacion click aqui</a>
+<div data-role="collapsible" data-content-theme="false"> 
+       <h2> Instrucciones</h2>
+<img src="imagenes/pla.jpg" width="50%" height="50%">
+       <p>Es importante comprender que el cuidar nuestro ambiente es un compromiso de todo habitante del mundo, los factores ecologicos representan antes, ahora, y siempre un reto para el ser humano en donde pareciera que tienen un contrasentido con la tecnología, ya que se observa una corriente inversamente proporcional entre tecnología y naturaleza de ahí que las personas entendidas en la materia tienen que buscar reglamentos, normas o leyes que regulen el uso de estos factores de forma que esto no se deteriore.</p>
+<p>Siempre ha existido un control natural de los diferentes equilibrios que implica mantener un buen ecosistema pero debido a la iniciativa mal fundamentada del hombre se han destruido esos equilibrios de ahí lo importante de una legislación de forma que conservemos, mejoremos, y construyamos equilibrios ecológicos que ayuden a tener una mejor calidad de vida en el mundo.</p>
+<p><b>¿QUE ES EL PLANETA TIERRA?</b></p> 
+<img src="imagenes/sal.jpg" width="50%" height="50%">
+<p>Es nuestro hogar el planeta tierra es la casa de infinita cantidades de maravillas una inpensable variedad de  fauna,flora,ecosistemas,biomas,habittats y formas de vidas podemos encontrar en ella ,sin duda alguna la tierra es la mejor megamaravilla del universo y debemos aprender a tratarla como se lo merece.</p>
+ 
+       </div>   
+       </div>
+       <div data-role="footer"data-theme="a" data-position="fixed">
+       <h4>Aplicacion Cinco</h4>
+       <img src="imagenes/planeta.jpg" width="46" height="46">
+       <h4>Blanca Estela Perea Escamilla</h4>
+       </div>
+       
+       </div>
+       </div>
+       </div>
+              
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="c">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>COMO CUIDAR EL MEDIO AMBIENTE </h1>
+</div>
+       <div data-role="content" align="center">
+       <div>
+        <div data-role="collapsible" data-content-theme="false"> 
+        <h2> Consejos para cuidar el medio ambiente </h2> 
+        <img src="imagenes/ambi.jpg" width="50%" height="50%">
+<p>1.- Antes de comprar un producto, hazte la pregunta si realmente lo necesitas. Cualquier consumo innecesario es en esencia antiecológico y antieconómico, ¿no lo crees?.</p>
+
+<p>2.- Sé crítico con la publicidad. Mira las cualidades de los productos, no los sueños que te venden en la publicidad muchas veces engañosa.</p>
+
+<p>3.- Antes de tirar cualquier cosa a la basura, piensa si se puede reutilizar, reciclar o reparar, o si puede ser útil para otra persona.</p>
+
+<p>4.- Evita las latas de bebidas, vale más el envase que su contenido y apenas se recuperan. La energía necesaria para producir y transportar una lata equivale a la mitad del bote lleno de petróleo.</p>
+
+<p>5.- La energía que producen las pilas es más de 600 veces más cara que la de la red. Conecta los aparatos a la red siempre que esto sea posible. Si te es imprescindible usar pilas (nunca tires las usadas a la basura), procura que sean recargables.</p>
+<img src="imagenes/ambie.jpg" width="50%" height="50%">
+<p>6.- Desconecta los aparatos eléctricos de la red cuando no están funcionando. Algunos aparatos (como televisores) siguen gastando hasta un 33% de la energía.</p>
+
+<p>7.- Prescinde de los electrodomésticos innecesarios como cepillos de dientes, abrelatas, cuchillos eléctricos, etc. Son mas cómodos algunos pero ninguno se iguala al sentimiento de hacerlo manualmente y saber que ahorraste miles de kilogramos de gases contaminantes que pudieron haberse liberado en alguna fábrica …China, seguro. Ten encuenta los criterios de ahorro energético al comprar nuevos frigoríficos, lavadoras, etc.</p>
+          
+ <p>8.- Usa bombillas LED que duran mucho más que las bombillas  tradicionales y que inclusiva las fluorescentes. Son de bajo consumo de energía para dar la misma cantidad de luz, con lo cual se termina ahorrando dinero y colaborando con el medio ambiente.</p>
+
+<p>9.- Evita los aerosoles que contienen CFCs y que son causantes de la destrucción de la capa de ozono, u otros gases que también contribuyen al efecto invernadero. Los pulverizadores son una buena alternativa y son recargables.</p>
+
+<p>10.-La gran mayoría de los productos de limpieza que se anuncian no sólo son innecesarios sino también muy nocivos para el medio ambiente. Casi toda la casa puede quedar perfectamente limpia con jabón, bicarbonato, vinagre y limón.</p>
+        
+       </div>
+        </div>
+       <div data-role="footer"data-theme="a" data-position="fixed">
+       <h4>Aplicacion Cinco</h4>
+       <img src="imagenes/planeta.jpg" width="46" height="46">
+       <h4>Blanca Estela Perea Escamilla</h4>
+       </div>
+       </div>
+       </div>
+       
+       
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="c">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>CAMBIOS CLIMATICOS </h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <img src="imagenes/clima.jpg" width="50%" height="50%">
+<p>El cambio climático es definido como un cambio estable y durable en la distribución de los patrones de clima en periodos de tiempo que van desde décadas hasta millones de años. Pudiera ser un cambio en las condiciones climáticas promedio o la distribución de eventos en torno a ese promedio (por ejemplo más o menos eventos climáticos extremos). El cambio climático puede estar limitado a una región específica, como puede abarcar toda la superficie terrestre.</p>
+<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image30','','imagenes/camb.jpg',1)"><img src="imagenes/cam.jpg" width="300" height="188" id="Image30"></a></p>
+<p>El término, a veces se refiere específicamente al cambio climático causado por la actividad humana, a diferencia de aquellos causados por procesos naturales de la Tierra y el Sistema Solar. En este sentido, especialmente en el contexto de la política ambiental, el término “cambio climático” ha llegado a ser sinónimo de “calentamiento global antropogénico“, o sea un aumento de las temperaturas por acción de los humanos.</p>
+<img src="imagenes/clim.jpg" width="50%" height="50%">
+ <p>En las revistas científicas, “calentamiento global” se refiere a aumentos de temperaturas superficiales, mientras que “cambio climático” incluye al calentamiento global y todos los otros aspectos sobre los que influye un aumento de los gases de efecto invernadero.</p>
+<img src="imagenes/cli.jpg" width="50%" height="50%">
+<a href="http://cambioclimaticoglobal.com/que-es-el-cambio-climatico">mas informacion click aqui</a> 
+       </div>
+       </div>
+       <div data-role="footer" align="center" data-theme="b">
+   <div>
+    <h4>Aplicacion Cinco</h4>
+   <img src="imagenes/planeta.jpg" width="46" height="46">
+   </div>
+    <div>
+    <h4>Blanca Estela Perea Escamilla </h4>
+    </div>
+</div>
+  
+    </div>
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="c">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>SIGNIFICADO DE LAS 3Rs</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <p> Quienes desean reducir su huella ambiental y trabajar en pro de un mundo más verde siendo ecológicos día a día, casi seguro que han escuchado hablar y practican las tres R, un concepto básico que todo el que se preocupe por el ambiente debería conocer. Si te estas iniciando en este movimiento de cuidar la tierra en la que vivimos y deseas saber un poco más acerca de cómo puedes aportar tu granito de arena.</p>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','imagenes/tres.jpg',1)"><img src="imagenes/tre.jpg" width="259" height="194" id="Image32"></a>
+       <p>REDUCE:Es la primera de las tres R, apunta a disminuir el volumen de nuestros residuos con el fin de contaminar mucho menos. Para conseguirlo puedes, por ejemplo:
+         Usar bolsas de tela o un carrito para realizar la compra en lugar de las bolsas plásticas que nos dan en los supermercados y tiendas.
+         Comprar productos elaborados con empaques que puedan reciclarse.
+         Disminuir el uso de productos y hojas de papel y de aluminio para reducir nuestra cantidad de desechos.
+         También es importante reducir nuestro consumo de recursos no renovables como el agua o la electricidad. En unComo te damos algunos consejos para ahorrar agua y luz que además te beneficiarán económicamente.</p>
+       <img src="imagenes/bol.jpg" width="50%" height="50%">
+      <p>REUTILIZAR:es la segunda de las tres R, una medida que nos invita a usar nuevamente aquellos productos que puedan utilizarse varias veces, de esta forma reduciremos nuestros desechos y consumiremos menos, beneficiando al ambiente. Algunas sugerencias para cumplir con este paso son:
+Reutilizar las hojas de papel para imprimir por ambas caras cuando sea posible.
+Usar nuevamente el papel aluminio si se encuentra limpio.
+También es posible reutilizar otros materiales como las botellas de plástico o las botellas y envases de vidrio.
+Además, antes de desechar algo de tu hogar como un mueble, ropa que ya no uses o cualquier artículo que ya no quieras, asegúrate de dárselo a otra persona que pueda usarlo, siempre y cuando se encuentre en buen estado. De esta forma reduces de manera importante tus desechos y le das a otro la oportunidad de utilizar un artículo o prenda que podría serle útil.
+También es posible usar estos materiales cotidianos para elaborar diferentes manualidades que nos sean útiles, de este modo conseguimos ahorrar gracias a la creatividad</p>
+      <img src="imagenes/re.jpg" width="50%" height="50%">
+<p>RECICLAR:Por último, cuando ya nos hemos preocupado por reducir nuestros desechos y reutilizar todos aquellos materiales y productos que es posible usar varias veces, entonces pasaremos a reciclar aquellas cosas que, tras un proceso de esterilización y transformación, pueden convertirse nuevamente en objetos aptos para nuestro uso.</p>
+<p>Para esto es importante separar tus desechos y verterlos en los contenedores indicados para cada material. En nuestro artículo cómo reciclar fácilmente te explicamos el modo adecuado de hacerlo.</p>
+       <img src="imagenes/red.jpg" width="50%" height="50%">   
+       </div>
+       </div>
+      <div data-role="footer" align="center" data-theme="b">
+   <div>
+    <h4>Aplicacion Cinco</h4>
+   <img src="imagenes/planeta.jpg" width="46" height="46">
+   </div>
+    <div>
+    <h4>Blanca Estela Perea Escamilla </h4>
+    </div>
+</div>
+  
+    </div>
+       
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="c">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>REFLEXION</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <!-- Start WOWSlider.com -->
+<iframe src="visorr/indexwow.html" style="width:500px;height:200px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->  
+ <p>Reciclar es la forma de reutilizar las cosas que creíamos que ya no nos servían, también es un buen acto para que el planeta ya no esté tan contaminado y en un futuro  se siga conservando la flora y la fauna. Por eso te invito a que reflexiones por el cuidado del ambiente y colabores en campañas por el cuidados del ambiente.</p>
+ 
+ <img src="imagenes/reff.jpg" width="50%" height="50%">
+ 
+<p>¡Da vida al planeta: RECICLA!Recicla porque el planeta lo vale</p>
+
+ <img src="imagenes/refle.jpg" width="50%" height="50%">
+ 
+<p>Todo puede tener otra vida: ¡Recicla! (SE PARTE DE LA NATURALEZA</p>
+<img src="imagenes/reflee.jpg" width="50%" height="50%">
+       </div>
+       </div>
+       <div data-role="footer" align="center" data-theme="b">
+   <div>
+    <h4>Aplicacion Cinco</h4>
+   <img src="imagenes/planeta.jpg" width="46" height="46">
+   </div>
+    <div>
+    <h4>Blanca Estela Perea Escamilla </h4>
+    </div>
+</div>
+  
+    </div>
+
+
+        
+</body>
+</html>
